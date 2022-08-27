@@ -14,7 +14,37 @@
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
   <body>
-    
+    <header></header>
+    <main>
+      <div class="container">
+        <h1>Расписание</h1>
+        <div class="filters">
+          <div class="filters__item">
+            <input
+              type="date"
+              id="inputDate"
+              min=""
+              onchange="saveDateToLS(event)"
+              value=""
+            />
+          </div>
+          <div class="filters__item">
+            <select name="" id="timeOptions" onchange="selectTime(event)"></select>
+          </div>
+        </div>
+      </div>
+      <div class="modal hidden" id="modal">
+        <div class="modal__content">
+            <div class="modal__header">
+                <div>Сеанс: <span id="sessionInfo"></span></div>
+                <div class="modal__close" onclick="hideModal()">&#10005;</div>
+            </div>
+            <div class="modal__main"></div>
+            <div class="modal__footer"></div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
     <script src="src/js/index.js"></script>
   </body>
 </html>
