@@ -1,0 +1,13 @@
+@import "normilize.css";
+
+:root {
+  --black: rgb(37, 39, 45);
+  --black-transparent: rgba(0, 0, 0, 0.68);
+  --white: #fff;
+  --dark-grey: #585757;
+  --light-grey: #fefefe;
+  --blue: #007bff;
+  --dark-blue: #0267d3;
+  --pink: #e920e5;
+  --main-font: "Roboto", Arial, sans-serif;
+}
