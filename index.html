@@ -16,7 +16,7 @@
   <body>
     <header></header>
     <main>
-      <div class="container">
+      <section class="container">
         <h1>Расписание</h1>
         <div class="filters">
           <div class="filters__item test">
@@ -32,8 +32,8 @@
             <select name="" id="timeOptions" onchange="selectTime(event)"></select>
           </div>
         </div>
-      </div>
-      <div class="modal hidden" id="modal">
+      </section>
+      <section class="modal hidden" id="modal">
         <div class="modal__content">
             <div class="modal__header">
                 <div>Сеанс: <span id="sessionInfo"></span></div>
@@ -42,7 +42,7 @@
             <div class="modal__main"></div>
             <div class="modal__footer"></div>
         </div>
-      </div>
+      </section>
     </main>
     <footer></footer>
     <script src="src/js/index.js"></script>
